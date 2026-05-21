@@ -50,14 +50,19 @@ This project bridges the gap between raw statistical data tables and spatial vis
 
 📈 Methodology
 Data Pre-processing: Raw agricultural text inputs were cleaned and converted. Text-based string columns (like odisha_agri_Fertilizer) were systematically cast into permanent, query-able numeric fields using the QGIS Field Calculator expression: to_int("odisha_agri_Fertilizer").
+
 Thematic Symbology: Vector polygon layers were duplicated to maintain three distinct, independent visual scales. Inverted color ramps were manually applied to specific variables to match precise design guidelines (e.g., higher values mapped to lighter shades for specialized visual distinction).
+
 Web Deployment: The mapping infrastructure was compiled utilizing the qgis2web parsing engine, optimizing it into a lightweight, fully responsive Leaflet bundle ready for server-less web deployment.
 
 🧑‍💻 Author
+
 Aditya Verma
+
 B.Sc. (Hons.) Agriculture Student
 
 📂 [Check out my GitHub Profile](https://github.com/adityaverma025)
+
 💼 [Connect with me on LinkedIn](https://www.linkedin.com/public-profile/settings/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact_info%3Be4UT8rXxT%2F%2BHCd%2FA39z5Eg%3D%3D)
 
 Feel free to star ⭐ this repository if you found it useful for agricultural spatial analysis!
